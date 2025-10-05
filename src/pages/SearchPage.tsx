@@ -164,8 +164,6 @@ const SearchPage: React.FC<SearchPageProps> = ({
               >
                 <option value={25}>25 músicas</option>
                 <option value={50}>50 músicas</option>
-                <option value={100}>100 músicas</option>
-                <option value={200}>200 músicas</option>
                 <option value={searchResults.length}>Todas ({searchResults.length})</option>
               </select>
             </div>
