@@ -218,6 +218,15 @@ export const brazilianCommercials: Commercial[] = [
     duration: 20,
     image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
   }
+   {
+    id: 'comm_12',
+    title: 'Spotify Premium - Música sem Limites',
+    advertiser: 'Spotify',
+    audioUrl: 'https://comerciais.netlify.app/mercadopago.mp3',
+    duration: 20,
+    image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
+  }
+  
 ];
 
 export const getRandomCommercial = (): Commercial => {
@@ -230,4 +239,5 @@ export const shouldPlayCommercial = (): boolean => {
   // You can adjust this logic to play commercials less frequently
   return true;
 };
+
 
