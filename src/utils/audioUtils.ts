@@ -121,111 +121,7 @@ export interface Commercial {
 }
 
 export const brazilianCommercials: Commercial[] = [
-  {
-    id: 'comm_1',
-    title: 'Coca-Cola Brasil - Abra a Felicidade',
-    advertiser: 'Coca-Cola',
-    audioUrl: 'https://comerciais.netlify.app/mercadolivre.mp3',
-    duration: 30,
-    image: 'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-   {
-    id: 'comm_2',
-    title: 'Bradesco - Banco do Brasil',
-    advertiser: 'Bradesco',
-    audioUrl: 'https://comerciais.netlify.app/claroprezao.mp3',
-    duration: 25,
-    image: 'https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_3',
-    title: 'Bradesco - Banco do Brasil',
-    advertiser: 'Bradesco',
-    audioUrl: 'https://comerciais.netlify.app/vacina.mp3',
-    duration: 25,
-    image: 'https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_4',
-    title: 'Skol - A Cerveja que Desce Redondo',
-    advertiser: 'Skol',
-    audioUrl: 'https://comerciais.netlify.app/trivago.mp3',
-    duration: 20,
-    image: 'https://images.pexels.com/photos/1552630/pexels-photo-1552630.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_5',
-    title: 'Magazine Luiza - Vem ser Feliz',
-    advertiser: 'Magazine Luiza',
-    audioUrl: 'https://comerciais.netlify.app/mercadolivre19reais.mp3',
-    duration: 35,
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_6',
-    title: 'Itaú - Feito para Você',
-    advertiser: 'Itaú',
-    audioUrl: 'https://comerciais.netlify.app/caixa.mp3',
-    duration: 30,
-    image: 'https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_7',
-    title: 'Casas Bahia - Quer Pagar Quanto?',
-    advertiser: 'Casas Bahia',
-    audioUrl: 'https://comerciais.netlify.app/pagbank.mp3',
-    duration: 25,
-    image: 'https://images.pexels.com/photos/1005638/pexels-photo-1005638.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_8',
-    title: 'Natura - Bem Estar Bem',
-    advertiser: 'Natura',
-    audioUrl: 'https://comerciais.netlify.app/bradesco.mp3',
-    duration: 30,
-    image: 'https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_9',
-    title: 'Spotify Premium - Música sem Limites',
-    advertiser: 'Spotify',
-    audioUrl: 'https://comerciais.netlify.app/claro.mp3',
-    duration: 20,
-    image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-    },
-  {
-    id: 'comm_10',
-    title: 'Spotify Premium - Música sem Limites',
-    advertiser: 'Spotify',
-    audioUrl: 'https://comerciais.netlify.app/sky.mp3',
-    duration: 20,
-    image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-  {
-    id: 'comm_11',
-    title: 'Spotify Premium - Música sem Limites',
-    advertiser: 'Spotify',
-    audioUrl: 'https://comerciais.netlify.app/itau.mp3',
-    duration: 20,
-    image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
 
-  },
-  {
-    id: 'comm_12',
-    title: 'Spotify Premium - Música sem Limites',
-    advertiser: 'Spotify',
-    audioUrl: 'https://comerciais.netlify.app/google.mp3',
-    duration: 20,
-    image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
-   {
-    id: 'comm_12',
-    title: 'Spotify Premium - Música sem Limites',
-    advertiser: 'Spotify',
-    audioUrl: 'https://comerciais.netlify.app/mercadopago.mp3',
-    duration: 20,
-    image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop'
-  },
   {
     id: 'comm_12',
     title: 'Spotify Premium - Música sem Limites',
@@ -247,6 +143,7 @@ export const shouldPlayCommercial = (): boolean => {
   // You can adjust this logic to play commercials less frequently
   return true;
 };
+
 
 
 
